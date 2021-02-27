@@ -27,6 +27,18 @@ nav{
                 3px 3px beige;
 }
 
+h2{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 50px;
+  color: grey;
+  font-weight: bold;
+  text-shadow: 1px 1px beige,
+                2px 2px beige,
+                3px 3px beige;
+}
+
 
 
 #search_box{
@@ -55,7 +67,7 @@ nav{
   margin-top: 40px;
   margin-left: 40px;
   margin-bottom: 40px;
-  background-image: url("../img/meal_4.jpg");
+  background-image: url("../img/bmeal1.jpg");
   background-size: contain;
 }
 
@@ -74,7 +86,7 @@ nav{
   margin-top: 40px;
   margin-left: 100px;
   margin-bottom: 40px;
-  background-image: url("../img/meal_4.jpg");
+  background-image: url("../img/meal_2.jpg");
   background-size: contain;
 
 }
@@ -88,11 +100,10 @@ nav{
   display: inline-block;
   width: 400px;
   height: 400px;
-
   margin-top: 40px;
   margin-left: 100px;
   margin-bottom: 40px;
-  background-image: url("../img/meal_4.jpg");
+  background-image: url("../img/meal_2.jpg");
   background-size: contain;
 }
 
@@ -103,22 +114,7 @@ nav{
 }
 
 
-div.gallery {
-  margin-top: 50px;
-  margin-left: 65px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
 
 .popup .overlay {
   position:fixed;
