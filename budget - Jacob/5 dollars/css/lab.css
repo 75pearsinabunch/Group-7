@@ -1,16 +1,22 @@
-
+ /*Hex color
+ Dark Purple:#5d4b64
+ Blue Purple:#9893b3
+ Light Blue Purple: #a9abc4
+ Brighter Purple: #957287
+ Warm Orange: #eaa97b
+ */
 
 body {
 
   
   background-size: contain;
-  background-color: AliceBlue;
+  background-color: #957287;
 }
 
 
 nav{
   width: 100%;
-  height: 500px;  /*change the height*/
+  height: 450px;  /*change the height*/
   background-color: grey;
   background-image: url("../img/meal_2.jpg");
   background-size: cover;
@@ -20,22 +26,22 @@ h1{
   margin-top: 50px;
   margin-bottom: 50px;
   font-size: 50px;
-  color: grey;
+  color: #a9abc4;
   font-weight: bold;
-  text-shadow: 1px 1px beige,
-                2px 2px beige,
-                3px 3px beige;
+  text-shadow: 1px 1px  #eaa97b,
+                2px 2px #eaa97b,
+                3px 3px #eaa97b;
 }
 h2{
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
   font-size: 50px;
-  color: grey;
+  color: black;
   font-weight: bold;
-  text-shadow: 1px 1px beige,
-                2px 2px beige,
-                3px 3px beige;
+  text-shadow: 1px 1px  #eaa97b,
+                2px 2px #eaa97b,
+                3px 3px #eaa97b;
 }
 
 
@@ -117,7 +123,78 @@ h2{
   position: relative;
 }
 
+#main_box_1_2{
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  background-image: url("../img/10_meal_1.jpg");
+  background-repeat:no-repeat;
+  background-size: 400px 350px;
+}
 
+
+#main_box_2_2{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    background-image: url("../img/10_meal_2.jpg");
+    background-repeat:no-repeat;
+    background-size: 400px 350px;
+}
+
+#main_box_3_2{
+        display: inline-block;
+        width: 400px;
+        height: 400px;
+        margin-top: 40px;
+        margin-left: 100px;
+        margin-bottom: 40px;
+        background-image: url("../img/10_meal_3.jpg");
+        background-repeat:no-repeat;
+        background-size: 400px 350px;
+}
+
+#main_box_1_3{
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  background-image: url("../img/15_meal_1.jpg");
+  background-repeat:no-repeat;
+  background-size: 400px 350px;
+}
+
+#main_box_2_3{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    background-image: url("../img/15_meal_2.jpg");
+    background-repeat:no-repeat;
+    background-size: 400px 350px;
+}
+
+#main_box_3_3{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    background-image: url("../img/15_meal_3.jpg");
+    background-repeat:no-repeat;
+    background-size: 400px 350px;
+}
 
 .popup-overlay {
   /*Hides pop-up when there is no "active" class*/
