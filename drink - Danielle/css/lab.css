@@ -5,6 +5,17 @@
   background-color: #9893b3;
   text-align: center;
 }
+.pictures {
+    max-width: 1200px;
+    margin-top: 100px;
+}
+.r1{
+  display: block;
+}
+
+
+
+
 
 ul {
   padding-left: 0;
@@ -16,9 +27,9 @@ body {
 }
 
 img {
-  border-width: thin;
+  border-width: medium;
   border-style: solid;
-  border-color: black;
+  border-color: #9893b3;
 }
 
 h3 {
