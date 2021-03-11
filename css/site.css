@@ -70,8 +70,8 @@ body {
 }
 
 .popRecipes {
-  width: 100%;
-  margin: 0 auto;
+  /* width: 100%; */
+  margin: 7px;
   text-align: center;
 }
 
@@ -118,4 +118,10 @@ p {
   border-width: medium;
   border-color: black;
   background-color: #a9abc4
+}
+
+#nav {
+  text-align: center;
+  font-size: 40px;
+  /* margin: 17px; */
 }
