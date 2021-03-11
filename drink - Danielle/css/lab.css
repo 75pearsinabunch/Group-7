@@ -1,4 +1,4 @@
-#Header {
+h1 {
   border-style: solid;
   border-width: thick;
   border-color: black;
@@ -9,6 +9,16 @@
 ul {
   padding-left: 0;
   margin: 0;
+}
+
+.r1 {
+  display: inline-block;
+}
+
+.pictures {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 body {
