@@ -1,6 +1,6 @@
 h1 {
   border-style: solid;
-  border-width: thick;
+  border-width: thin;
   border-color: black;
   background-color: #957287;
   text-align: center;
@@ -17,7 +17,7 @@ img {
 
 h2 {
   border-style: solid;
-  border-width: medium;
+  border-width: thin;
   border-color: black;
   background-color: #9893b3;
   text-align: center;
@@ -25,7 +25,7 @@ h2 {
 
 p {
   border-style: solid;
-  border-width: medium;
+  border-width: thin;
   border-color: black;
   background-color: #a9abc4
 }
