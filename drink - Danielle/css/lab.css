@@ -1,0 +1,46 @@
+h1 {
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  background-color: #9893b3;
+  text-align: center;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #a9abc4;
+}
+
+img {
+  border-width: thick;
+  border-style: solid;
+  border-color: #9893b3;
+}
+
+h3 {
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  background-color: #a9abc4;
+  text-align: center;
+}
+
+p {
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  background-color: #a9abc4
+}

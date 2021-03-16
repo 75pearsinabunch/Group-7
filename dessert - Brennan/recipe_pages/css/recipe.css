@@ -1,4 +1,4 @@
-#Header {
+h1 {
   border-style: solid;
   border-width: thick;
   border-color: black;
@@ -15,7 +15,7 @@ img {
   border-color: black;
 }
 
-h3 {
+h2 {
   border-style: solid;
   border-width: medium;
   border-color: black;
@@ -28,8 +28,4 @@ p {
   border-width: medium;
   border-color: black;
   background-color: #a9abc4
-}
-
-h1{
-  text-align: center;
 }
