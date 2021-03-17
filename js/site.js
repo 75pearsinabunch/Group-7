@@ -29,9 +29,9 @@ $("#submit").click(function(){
   var rName = $("#text").val();
   var rInfo = $("#comment").val();
   $("#output").append("<h2>");
-  $("#output").append("<p>");
+  $("#output").append("<h2>");
   $("#output h2").text(rName);
-  $("#output p").text(rInfo);
+  $("#output h2").text(rInfo);
   $("#text").hide();
   $("#comment").hide();
   $(".fRight").hide();
