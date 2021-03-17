@@ -29,3 +29,11 @@ p {
   border-color: black;
   background-color: #a9abc4
 }
+
+#previous {
+  float: left;
+  border-style: solid;
+  border-width: thick;
+  border-color: black;
+  background-color: #957287;
+}
