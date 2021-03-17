@@ -23,6 +23,7 @@ $(function(){
 });
 $("#outImg").hide();
 $("#newR").hide();
+$("#tryAgain").hide();
 
 // creat a click event which allow users to submit the input and display
 $("#submit").click(function(){
@@ -41,6 +42,7 @@ $("#submit").click(function(){
   $("#nam").hide();
   $("#outImg").show();
   $("#newR").show();
+  $("#tryAgain").show();
 });
 
 // creat a section that allow users to upload image files
@@ -49,4 +51,8 @@ $("#img").change(function(event){
   var x = URL.createObjectURL(event.target.files[0]);
   $("#outImg").attr("src",x);
   console.log(event);
+})
+
+$("#tryAgain").click(function() {
+  window.location.reload();
 })
