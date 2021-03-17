@@ -22,6 +22,7 @@ $(function(){
   $(".errorMsg").hide();
 });
 $("#outImg").hide();
+$("#newR").hide();
 
 // creat a click event which allow users to submit the input and display
 $("#submit").click(function(){
@@ -39,6 +40,7 @@ $("#submit").click(function(){
   $("#lab").hide();
   $("#nam").hide();
   $("#outImg").show();
+  $("#newR").show();
 });
 
 // creat a section that allow users to upload image files
