@@ -1,6 +1,6 @@
 .icon-bar {
-  width: 90px; /* Set a specific width */
-  background-color: #957287; /* Dark-grey background */
+  width: 90px;
+  background-color: #957287;
   float: right;
 }
 
@@ -131,7 +131,9 @@ p {
   border-style: solid;
   border-width: thin;
   border-color: black;
-  background-color: #a9abc4
+  background-color: #a9abc4;
+  text-align: center;
+  font-size: 22px;
 }
 
 #nav {
@@ -156,4 +158,8 @@ textarea {
 
 #output-img {
   text-align: center;
+}
+
+.sourcelink {
+    float: right;
 }
