@@ -3,7 +3,3 @@
 * Created: 3/17/2021
 * License: Public Domain
 */
-
-$("#previous").click(function() {
-  window.history.back();
-})
